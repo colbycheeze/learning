@@ -69,14 +69,35 @@ def triangle_bot():
             print("#", end="")
         spaces-=2
         hashes+=1
+
+
+def nums_bot():
+    rows=8
+    nums=1
+    spaces=rows*2 - 2
+    for i in range(rows):
+        print("")
+        for j in range(nums):
+            print(j, end="")
+        for j in range(spaces):
+            print(" ", end="")
+        num=i
+        for j in range(nums):
+            print(num, end="")
+            num-=1
+        spaces-=2
+        nums+=1
+
+def main():
+    nums_bot()
+    triangle_top()
+    triangle_bot()
+    triangle_top()
+
+main()
     
 
-triangle_right()
-triangle_left()
-t_bl()
-t_br()
-triangle_top()
-triangle_bot()
+    
 
 
 

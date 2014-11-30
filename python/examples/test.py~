@@ -1,0 +1,26 @@
+#!/usr/bin/evn python
+print 'Hello World!'
+
+# Fibbonaci 
+a,b = 0,1
+while b < 100:
+    print b,
+    a,b = b, a+b
+
+# Get an int and evaluate
+x = int(raw_input("Please enter an integer: "))
+if x < 0:
+    x = 0
+    print 'Negative changed to zero'
+elif x == 0:
+    print 'Zero'
+elif x == 1:
+    print 'Single'
+else:
+    print 'More' 
+
+# Measure some strings
+words = ['cat', 'dog', 'taco']
+for w in words:
+    print w, len(w)
+

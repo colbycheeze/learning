@@ -93,7 +93,7 @@ def main():
     triangle_top()
     triangle_bot()
     triangle_top()
-    print(""+__name__)
+    print(__name__)
 
 main()
     

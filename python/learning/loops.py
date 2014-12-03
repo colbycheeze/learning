@@ -94,5 +94,6 @@ def main():
     triangle_bot()
     triangle_top()
     print(""+__name__)
+    print("random words!")
 
 main()

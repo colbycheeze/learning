@@ -1,0 +1,29 @@
+p{
+    font-family: Monaco;
+    color: #d97830;
+}
+#testaroni {
+    margin-left: 250px;
+    float: right;
+    border: 2px solid blue;
+    padding: 10px;
+    position: fixed;
+        
+}
+
+#longthing {
+    border: 5px dashed #09096a;
+    background-color: #A5A;
+    height: 5000px;
+    width: 200px;
+    
+    position:absolute;
+}
+
+div{
+    border-radius: 5px;
+}
+
+#header {
+    /* Do something */
+}

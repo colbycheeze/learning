@@ -20,10 +20,55 @@ p{
     position:absolute;
 }
 
+/* CodAcademy Resume CSS */
+
+
+/* CodAcademy Resume CSS */
+
 div{
     border-radius: 5px;
 }
 
+p{
+    padding: 5px;
+}
+
 #header {
-    /* Do something */
+    width: 97.5%;
+    height: 50px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    background-color: blue;
+    z-index: 1;
+    position: fixed;
+}
+
+#footer {
+    width: 97.5%;
+    height: 50px;
+    background-color: red;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.left {
+    width: 10%;
+    height: 400px;
+    background-color: #4a4afe;
+    float:left;
+    margin-left: 10px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.right {
+    width: 85%;
+    height: 400px;
+    background-color: #e23bd9;
+    float:right;
+    margin-right: 10px;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 10px;
 }
